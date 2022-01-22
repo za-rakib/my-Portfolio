@@ -1,0 +1,58 @@
+.contact{
+width:100%;
+background: linear-gradient(-45deg, #ee7752, #dd759d, #23a6d5, #252a49);
+background-size: 400% 400%;
+height: calc(100vh - 60px);
+height: -webkit-calc(100vh - 60px);
+height: -moz-calc(100vh - 60px);
+animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
+.contactButton{
+    padding:5px 12px ;
+    background-color: #ee7752;
+    border: 2px solid #ee7752;
+    color:white;
+    font-size: 20px;
+}
+.contactButton:hover{
+    border: 2px solid #ee7752;
+    background-color: #242842;
+    color:#ee7752;
+    transition:.5s;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+}
+.contactSection{
+     background-color: #242842;
+  margin: auto auto;
+  padding: 0;
+  width: 100%;
+}
+.form{
+ width:60%;
+}
+@media only screen and (min-width: 768px) {
+    .contact{
+        height:100%
+    }
+}
+@media only screen and (min-width: 992px) {
+   
+}
+@media only screen and (min-width: 1200px) {
+   
+  }

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.project {
+  background-color: #232741;
+  height: 100%;
+  width: 100%;
+  height: -webkit-calc(100vh - 60px);
+  height: -moz-calc(100vh - 60px);
+}
