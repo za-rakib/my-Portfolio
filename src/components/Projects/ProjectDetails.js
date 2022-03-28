@@ -26,14 +26,16 @@ const ProjectDetails = ({ project }) => {
           >
             CLIENT
           </a>
-          <a
-            href={project.server}
-            target="_blank"
-            className="btn "
-            rel="noreferrer"
-          >
-            SERVER
-          </a>
+          {project.server ? (
+            <a
+              href={project.server}
+              target="_blank"
+              className="btn "
+              rel="noreferrer"
+            >
+              SERVER
+            </a>
+          ) : null}
         </div>
       </div>
     </div>

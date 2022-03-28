@@ -27,24 +27,24 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <ul className="navbar-nav ml-auto nav">
-                    <li className="nav-item active">
+                    {/* <li className="nav-item active">
                         <Link className="nav-link m-1" to="/home">HOME <span className="sr-only"></span></Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <Link className="nav-link m-1" to="/about">ABOUT</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link m-1" to="/projects">PROJECTS</Link>                   
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link className="nav-link m-1" to="/blogs">BLOGS</Link>
-                    </li>
+                    </li> */}
                     
                     <li className="nav-item">
                         <Link className="nav-link m-1" to="/contact">CONTACT</Link>
                     </li>
                     <li className="nav-item resume m-1">
-                        <a  className="nav-link resume" href="https://drive.google.com/uc?export=download&id=10vFiy1oG0AuYo8G9cxM4ttvcd7_JQPmM"  > RESUME <FontAwesomeIcon icon={faArrowDown} /> </a>
+                        <a  className="nav-link resume" href="https://drive.google.com/uc?export=download&id=1McqmgaVsga7214r0cLIa0u2YWQ4CbqH2"> RESUME <FontAwesomeIcon icon={faArrowDown} /> </a>
                         
                     </li>
                 </ul>

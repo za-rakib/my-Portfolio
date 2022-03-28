@@ -20,7 +20,7 @@ const Home = () => {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("Web Developer | Programmer | Lerner..")
+                .typeString("Web Developer | Programmer |Learner..!")
                 .callFunction(() => {
                   console.log("String typed out!");
                 })

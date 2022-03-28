@@ -19,7 +19,7 @@ const About = () => {
           <h5>Full Name : &nbsp; Md Rakib Hossen</h5>
           <h5>Age : &nbsp; 24 years</h5>
           <h5>Nationality: &nbsp; Bangladesh</h5>
-          <h5>Email: &nbsp; phpzarakib@gmail.com</h5>
+          <h5>Email: &nbsp; rakib.dev70@gmail.com</h5>
           <h5>Cell: &nbsp; +8801517037484</h5>
         </div>
       </div>

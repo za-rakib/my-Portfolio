@@ -4,6 +4,7 @@ import fruits from "../../images/React App.png";
 import foodHub from "../../images/foodHub.jpeg";
 import library from "../../images/library.png";
 import myShop from "../../images/my shop.png";
+import gpt3 from "../../images/gpt3.png";
 export const project = [
   {
     image: corona,
@@ -19,7 +20,6 @@ export const project = [
     text: "Food Hub is an online restaurant search and delivery platform .You can search for the restaurants and select from the available menus. After ordering, users will be able to see the items they have ordered.",
     live: `https://expo.dev/@zarakib/food-hub`,
     client: `https://github.com/za-rakib/foodHub`,
-    server: ``,
   },
   {
     image: library,
@@ -28,6 +28,13 @@ export const project = [
     live: `https://ist-library-36dfa.web.app/`,
     client: `https://github.com/za-rakib/Library-Management-System`,
     server: `https://github.com/za-rakib/-Library-Management-System-server`,
+  },
+  {
+    image: gpt3,
+    title: "GPT3 UX/UI design",
+    text: "This is a ux/ui design project",
+    live: `https://gpt3-bfeb1.web.app/`,
+    client: `https://github.com/za-rakib/Ux_UI`,
   },
   {
     image: car,
@@ -51,7 +58,7 @@ export const project = [
     text: "This is a simple e-commerce website for buying a variety of fruits, from where the buyer will buy any kind of fruits.",
     live: `https://vibrant-williams-94b47a.netlify.app/`,
     client: `https://github.com/za-rakib/MY-Shop`,
-    server: ``,
+
   },
  
 ];
