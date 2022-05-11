@@ -5,7 +5,18 @@ import foodHub from "../../images/foodHub.jpeg";
 import library from "../../images/library.png";
 import myShop from "../../images/my shop.png";
 import gpt3 from "../../images/gpt3.png";
+import wish from "../../images/wish.png";
 export const project = [
+  {
+    image: wish,
+    title: "Wish Hut",
+    text: "It is a MERN Stack SPA where patients can make any doctor's appointment for them.There are two roles in the website User and Admin.",
+    live: `https://wish-hut-client.web.app/`,
+    client: `https://github.com/za-rakib/wishHut`,
+    Admin_live: `https://wish-hut-admin.web.app/`,
+    server: `https://github.com/za-rakib/wish_hut-api`,
+    Admin_git:`https://github.com/za-rakib/wish-hut_admin`
+  },
   {
     image: corona,
     title: "Corona Care",
@@ -58,7 +69,5 @@ export const project = [
     text: "This is a simple e-commerce website for buying a variety of fruits, from where the buyer will buy any kind of fruits.",
     live: `https://vibrant-williams-94b47a.netlify.app/`,
     client: `https://github.com/za-rakib/MY-Shop`,
-
   },
- 
 ];

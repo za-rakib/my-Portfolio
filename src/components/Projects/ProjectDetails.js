@@ -9,7 +9,7 @@ const ProjectDetails = ({ project }) => {
         <img src={project.image} className="card-img" alt="..." />
       </div>
       <div className="overlay">
-        <div className="btn-section d-flex justify-content-center">
+        <div className="btn-section">
           <a
             href={project.live}
             target="_blank"
@@ -34,6 +34,26 @@ const ProjectDetails = ({ project }) => {
               rel="noreferrer"
             >
               SERVER
+            </a>
+          ) : ''}
+            {project.Admin_live ? (
+            <a
+              href={project.Admin_live}
+              target="_blank"
+              className="btn "
+              rel="noreferrer"
+            >
+              Admin Live
+            </a>
+          ) : null}
+            {project.Admin_git ? (
+            <a
+              href={project.Admin_git}
+              target="_blank"
+              className="btn "
+              rel="noreferrer"
+            >
+               Admin Git
             </a>
           ) : null}
         </div>

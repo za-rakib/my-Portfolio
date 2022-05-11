@@ -44,7 +44,11 @@
 .btn-section {
   position: absolute;
   top: 45%;
-  left:5%;
+  left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 .btn {
   background-color: #f5865d;
